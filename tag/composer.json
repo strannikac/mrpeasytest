@@ -1,0 +1,8 @@
+{
+  "name": "mrpeasy/testtask",
+  "type": "project",
+  "license": "proprietary",
+  "require": {
+    "phpunit/phpunit": "*"
+  }
+}

@@ -1,0 +1,60 @@
+form {
+	margin: 0px;
+}
+
+input, select, textarea, button
+{
+	color: #000000; 
+	font-size: 16px; 
+	font-family: 'Roboto', sans-serif;
+	background-color: #ffffff;
+	border: 1px solid #b7b09f;
+	-webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+	padding: 0px 10px 0px 10px;
+	height: 50px;
+}
+
+textarea 
+{
+	margin: 0px 0px 0px 0px;
+	padding: 5px 10px;
+	height: 100px;
+	-webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    resize: vertical;
+}
+
+input.submit, button, .btn {
+	width: auto;
+	height: auto;
+	padding: 10px 25px;
+	color: #ffffff;
+	background-color: #007700;
+	cursor: pointer;
+	border-width: 0px;
+}
+input.submit.disabled, button.disabled, .btn.disabled {
+	background-color: #777777;
+    cursor: default;
+}
+input.submit:hover, button:hover, .btn:hover {
+	background-color: #008800;
+    text-decoration: none;
+}
+input.submit.disabled:hover, button.disabled:hover, .btn.disabled:hover {
+	background-color: #777777;
+    cursor: default;
+}
+
+label {
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.el-err, .err-el {
+	border-color: #ff0000;
+	color: #ffcccc;
+}
